@@ -1,0 +1,14 @@
+Package: otr
+Type: Package
+Version: 0.1
+Title: Off-The-Record (OTR) Messaging Library
+Description: OTR allows you to have private conversations over by providing
+    Encryption, Authentication, Deniability, and Perfect forward secrecy.
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+URL: https://otr.cypherpunks.ca
+BugReports: https://github.com/jeroenooms/otr/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
