@@ -2,12 +2,13 @@ Package: otr
 Type: Package
 Version: 0.1
 Title: Off-The-Record (OTR) Messaging Library
-Description: OTR allows you to have private conversations over by providing
-    Encryption, Authentication, Deniability, and Perfect forward secrecy.
+Description: OTR is a cryptosystem that allows for private messaging by providing
+    encryption, authentication, deniability, and perfect forward secrecy.
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
 URL: https://otr.cypherpunks.ca
 BugReports: https://github.com/jeroenooms/otr/issues
+SysRequirements: libotr: libotr5-dev (deb), libotr-devel(rpm)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
