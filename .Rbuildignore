@@ -1,7 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-windows
-.travis.yml
+^.travis.yml$
 ^cran-comments\.md$
 ^revdep$
 ^src/Makevars$
@@ -9,3 +8,4 @@ windows
 ^docker$
 ^readme.md$
 ^appveyor\.yml$
+^windows$
