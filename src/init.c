@@ -14,3 +14,7 @@ void R_init_otr(DllInfo *info) {
 void R_unload_otr(DllInfo *info) {
   otrl_userstate_free(userstate);
 }
+
+SEXP C_otr_version(){
+  return mkString(otrl_version());
+}

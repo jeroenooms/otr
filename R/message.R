@@ -7,3 +7,10 @@
 otr_send <- function(msg) {
   .Call(C_send_message, msg)
 }
+
+#' @export
+#' @useDynLib otr C_otr_version
+otr_config <- function(){
+  version <- .Call(C_otr_version)
+  list(version = version)
+}
