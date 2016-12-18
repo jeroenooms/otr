@@ -1,0 +1,11 @@
+PKG_CPPFLAGS= -I../windows/libotr-4.1.1/include
+PKG_LIBS=-L../windows/libotr-4.1.1/lib${R_ARCH} \
+	-lotr -lgcrypt -lgpg-error
+
+all: clean winlibs
+
+clean:
+	rm -f $(SHLIB) $(OBJECTS)
+
+winlibs:
+	"${R_HOME}/bin${R_ARCH_BIN}/Rscript.exe" "../tools/winlibs.R"
